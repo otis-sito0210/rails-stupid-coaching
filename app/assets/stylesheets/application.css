@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+ h1 {
+  font-weight: bold;
+ }
+
+ body {
+  padding-top: 20px; /* Add top padding for better spacing */
+}
+.container {
+  text-align: left; /* Align everything to the left */
+}
+.form-control {
+  width: 100%; /* Make the input box take up the full width */
+  font-size: 18px; /* Increase font size for the input */
+}

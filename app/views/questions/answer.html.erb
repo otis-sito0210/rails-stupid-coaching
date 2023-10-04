@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <p><%= @question %></p>
+      <p class="font-italic text-muted">You</p>
+      <p class="bg-yellow"><%= @answer %></p>
+      <p class="font-italic text-muted">Your coach</p>
+      <%= link_to "Ask me again", ask_path, class: "btn btn-primary" %>
+    </div>
+  </div>
+</div>
